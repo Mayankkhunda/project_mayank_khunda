@@ -45,7 +45,7 @@ project_yourname/
 * Source: Kaggle Flower Dataset
 * Number of classes: 17
 * Format: RGB images
-* Data used: Sample images (10 per class)
+* Data used: Sample images (70 per class)
 
 ---
 
