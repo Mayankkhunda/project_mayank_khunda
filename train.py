@@ -35,12 +35,12 @@ def train_model(model, num_epochs, train_loader, loss_fn, optimizer):
 
     # Save trained model
     torch.save(model.state_dict(), model_save_path)
-    print("✅ Model saved at:", model_save_path)
+    print(" Model saved at:", model_save_path)
 
 
-# 🔥 This block allows direct running of train.py
+#  This block allows direct running of train.py
 if __name__ == "__main__":
-    print("🚀 Starting training...")
+    print(" Starting training...")
 
     # Load data
     train_loader = flowerLoader(data_path)
@@ -55,4 +55,4 @@ if __name__ == "__main__":
     # Train model
     train_model(model, epochs, train_loader, loss_fn, optimizer)
 
-    print("🎉 Training completed!")
+    print(" Training completed!")
